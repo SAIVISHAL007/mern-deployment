@@ -1,0 +1,23 @@
+{
+  "name": "mern-server",
+  "version": "1.0.0",
+  "description": "MERN Stack Backend for Vercel Deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build required for server'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "keywords": ["mern", "express", "mongodb", "vercel"],
+  "author": "Your Name",
+  "license": "MIT"
+}
