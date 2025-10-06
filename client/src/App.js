@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Configure axios for production and development
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-vercel-app.vercel.app/api' 
+  ? 'https://mern-deployment-your-username.vercel.app/api' 
   : 'http://localhost:5000/api';
 
 console.log('API_BASE_URL:', API_BASE_URL);
